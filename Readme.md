@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Алексей Руднев](https://up.htmlacademy.ru/htmlcss/38/user/2430503).
-* Наставник: `Неизвестно`.
+* Наставник: `Дмитрий Осадченко https://htmlacademy.ru/profile/dimaos`.
 
 ---
 

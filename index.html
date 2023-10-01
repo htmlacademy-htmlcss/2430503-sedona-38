@@ -9,7 +9,7 @@
       <a class="navigation-link" href="index.html">
         <img src="#" alt="logo-sedona">
       </a>
-      <nav class="navigation">
+      <nav class="navigation-main">
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="index.html"> Главная </a>
@@ -22,17 +22,17 @@
           </li>
         </ul>
         <ul class="navigation-user">
-          <li class="navigation-item">
+          <li class="navigation-user-item">
             <a class="navigation-link" href="#">
               <span class="visually-hidden"> Поиск </span>
             </a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-user-item">
             <a class="navigation-link" href="#">
-              <span class="visually-hidden">Избранное</span>
+              <span class="visually-hidden">Избранное</span><span class="liked">12</span>
             </a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-user-button">
             <a href="navigation-link" href="#">
               <span class="visually-hidden">Хочу сюда </span>
             </a>
@@ -41,11 +41,87 @@
       </nav>
     </header>
     <main>
-      <h1>
+      <section class="hero">
+        <h2 class="visually-hidden">О Седоне</h2>
+        <img src="#" alt="Welcome to gorgeous Sedona. Because the Grand Canyon sucks">
+        <h2 class="title"> Седона - небольшой городк в Аризоне, заслуживающий большего!</h2>
+        <p class="subtitle">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+      </section>
+      <section class="benefits">
+        <h2 class="visually-hidden">Преимущества Седоны</h2>
+        <ul class="benefits-list">
+          <li class="benefits-item-image">
+           <h3 class="title">Настоящий городк</h3>
+           <p class="subtitle">Седона - не аттракцион для туристов, там течет своя жизнь</p>
+           <img src="#" alt="Фотография Седоны">
+          </li>
+          <li class="benefits-item">
+            <h3 class="title">Небольшая площадь</h3>
+            <p class="subtitle">Все достопремечательности находятся очень близко</p>
+          </li>
+          <li class="benefits-item">
+            <h3 class="title"> Красивая дорога</h3>
+            <p class="subtitle"> Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          <li class="benefits-item">
+            <h3 class="title">Мало туристов</h3>
+            <p class="subtitle">Большинсво едет в Гранд-Каньон и полпится там</p>
+          </li>
+          <li class="benefits-item-image">
+            <h3 class="title">Там есть Мост Дьявола</h3>
+            <p class="subtitle">Да, по нему можно пройти! Если вы осмелетесь, разумеется</p>
+            <img src="#" alt="Фотография Моста Дьявола">
+          </li>
+        </ul>
+      </section>
+      <section calss="additional benefits">
+        <h2 class="title"> Приезжайте в Седону отдохнуть в комфорте и уюте! </h2>
+        <p class="subtitle"> Опытный персонал и качественное обслуживание </p>
+        <ul>
+          <li class="add-benefits-item">
+            <img src="#" alt="Иконка домика">
+            <h3 class="title">Жилье</h3>
+            <p class="subtitle">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          </li>
+          <li class="add-benefits-item">
+            <img src="#" alt="Иконка бургера">
+            <h3 class="title">Еда</h3>
+            <p class="subtitle">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь</p>
+          </li>
+          <li class="add-benefits-item">
+            <img src="#" alt="Иконака подарка">
+            <h3 class="title">Сувениры</h3>
+            <p class="subtitle">Не только китайского, но и настоящего мостного производства!</p>
+          </li>
+        </ul>
+      <section class="hotel-search">
+        <h2 class="title">Заинтересовались?</h2>
+        <p class="subtitle"> Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в Седоне </p>
+        <a class="serch-button" href="#"> Поиск гостиницы в Седоне</a>
+      </section class="subscribe">
+        <h2 class="title"> Подпишитесь на расслыку</h2>
+        <p class="subtitle">Только полезная информация и накакого спама, честное бойскаутское!</p>
+        <form class="subscribe-form" action="index.html" method="post">
+          <label class="visually-hidden">email</label>
+          <input class="subscribe-field" type="text" name="email" placeholder="Ваш e-mail">
+          <input class="subscribe-button" type="submit" value="Подписаться">
+        </form>
+        <img src="#" alt="Фоновое изображение">
+      </section>
 
     </main>
+    <footer>
+      <nav class="socialmedia">
+        <ul class="socialmedia-list">
+          <li class="socialmedia-item-img"><a href=https://vk.com/htmlacademy><img src="#" alt="VK"></a>
+          <li class="socialmedia-item-img"><a href=https://t.me/htmlacademy><img src="#" alt="Telegram"></a>
+          <li class="socialmedia-item-img"><a href=https://www.youtube.com/user/htmlacademy.ru><img src="#" alt="Youtube"></a>
+        </ul>
+      </nav>
+      <a class="phone-number" href="+7 (812) 812-12-12">+7 (812) 812-12-12</a>
+      <a href=https://htmlacademy.ru><img src="#" alt="htmlacademy"></a>
+    </footer>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+
 
   </body>
 </html>
